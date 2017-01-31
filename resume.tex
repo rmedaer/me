@@ -1,0 +1,143 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Raphael Medaer Resume/CV
+% XeLaTeX Template
+% Version 1.0~rme (2017)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% Modified by:
+% Raphael Medaer
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+% Not important notes:
+% If you're reading this, you might be interested by resume... nice !!
+% Feel free to contact me ;-)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+
+\begin{document}
+
+\hypersetup{
+	pdfauthor={Raphael Medaer},
+	pdftitle={Raphael Medaer - Curriculum Vitae},
+	pdfsubject={Curriculum Vitae},
+	pdfkeywords={rmedaer,cv,resume},
+	pdfproducer={XeLateX},
+	pdfcreator={XeLateX}}
+
+\input{personal.tex}
+
+\header{Raphael}{Medaer}{Telecom \& industrial development engineer} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{contact}
+\myAddress
+~
+\myPhoneNumber
+~
+\href{mailto:\myPrivateMail}{\myPrivateMail}
+\href{http://github.com/rmedaer}{gh://rmedaer}
+\section{languages}
+french mother tongue
+english fluency
+\section{programming}
+{\color{red} $\varheartsuit$} C/C++
+Python, PHP, Javascript,
+Java, ASM, (.*)sh
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{education}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2010--2014}
+{Bachelor {\normalfont of Computer Science}}
+{Ecole Supérieur d'Informatique (HEB)}
+{Obtained magna cum laude with a degree in indrustrial computer sciences.}
+%------------------------------------------------
+\entry
+{2008--2010}
+{{\normalfont History of Art}}
+{Université Libre de Bruxelles}
+{Specialization in Musicology}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{experience}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2014--Now}
+{\href{http://escaux.com}{Escaux SA}}
+{Wavre, Belgium}
+{\emph{Software Development Engineer} \\
+Developed unified communications systems and modern WebRTC softphone connected with fixed-mobile unification; these include low level and high level languages and technologies. I developed also a suite of automation and deployment tools based on OpenSource solutions. This experience brought me the following knowledges:
+\begin{itemize}
+\item RTC developments, architectures and protocols (e.g. SIP)
+\item Network security skills, specially in Web 2.0 technologies (WebRTC, OAuth, ...)
+\item Contributions to major softwares and projects: Asterisk, \href{http://lists.mindrot.org/pipermail/openssh-unix-dev/2016-December/035563.html}{OpenSSH}, \href{https://github.com/rmedaer/mod_psm}{Apache2},\href{https://github.com/smira/aptly/pull/390}{Aptly}, Debian, Ansible, ...
+\item Automation and deployment models. Architecture analysis and design.
+\item Mobile developments (Android).
+\end{itemize}}
+%------------------------------------------------
+\entry
+{2014}
+{\href{http://www.cenaero.be/}{Cenaero}}
+{Gosselies, Belgium}
+{\emph{Internship} \\
+Built an advanced monitoring system for \href{https://www.top500.org/system/178439}{biggest Belgian supercomputer}. \\
+I worked with HPC technologies such as PBS, MPI, Ganglia or memcached servers.}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	HACKER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{knowledge \& skills}
+
+\textbf{communication:} Team playing, Agile (Scrum), DevOps, Community-Driven development \\
+\textbf{unix \& linux:} Debian tools, Kernel, PAM \& NSS module developments \\
+\textbf{network:} common layers, protocols++ (e.g. SIP, HTTP, SSH, ...) \\
+\textbf{security:} PKI (OpenSSL, GPG), DTLS, SRTP \\ 
+\textbf{electronics:} PIC, I2C, SPI, Step 7, Modbus, IPMI ... \\
+\textbf{databases:} {My,Postgre}SQL, Mongo, Redis \\
+ 
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{interests}
+
+\textbf{professional:} low-level technologies, high-performance computing, security sciences, events \& meetups, open-source\footnote{Resume \href{https://github.com/rmedaer/me}{license and sources on Github}} softwares, after-works with colleagues \\
+\textbf{personal:} electronics, white hacking, organizing \href{http://www.relaispourlavie.be/relays/braine-lalleud-2017#block-views-stkrfl-contacts-main-block-1}{Relay 4 life}, music (piano), \href{https://www.lairdubois.fr/pas-a-pas/268-meuble-tv-chester-2.html}{wood working}
+
+\end{document}
