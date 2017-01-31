@@ -27,6 +27,7 @@
 \definecolor{purple}{HTML}{D3A4F9}
 \definecolor{red}{HTML}{FB4485}
 \definecolor{blue}{HTML}{6CE0F1}
+\definecolor{underliner}{HTML}{DDDDDD}
 
 \ifdefined\@cv@print
   \colorlet{green}{gray}
@@ -37,6 +38,7 @@
   \colorlet{blue}{gray}
   \colorlet{fillheader}{white}
   \colorlet{header}{gray}
+  \colorlet{underliner}{white}
 \else
   \colorlet{fillheader}{gray}
   \colorlet{header}{white}

@@ -28,7 +28,8 @@
 
 \documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
 
-\begin{document}
+\usepackage{color,soul}
+\setulcolor{underliner}
 
 \hypersetup{
 	pdfauthor={Raphael Medaer},
@@ -37,6 +38,9 @@
 	pdfkeywords={rmedaer,cv,resume},
 	pdfproducer={XeLateX},
 	pdfcreator={XeLateX}}
+
+\begin{document}
+
 
 \input{personal.tex}
 
@@ -52,8 +56,8 @@
 ~
 \myPhoneNumber
 ~
-\href{mailto:\myPrivateMail}{\myPrivateMail}
-\href{http://github.com/rmedaer}{gh://rmedaer}
+\href{mailto:\myPrivateMail}{\ul{\myPrivateMail}}
+\href{http://github.com/rmedaer}{\ul{gh://rmedaer}}
 \section{languages}
 french mother tongue
 english fluency
@@ -95,24 +99,24 @@ Java, ASM, (.*)sh
 %------------------------------------------------
 \entry
 {2014--Now}
-{\href{http://escaux.com}{Escaux SA}}
+{\href{http://escaux.com}{\ul{Escaux SA}}}
 {Wavre, Belgium}
 {\emph{Software Development Engineer} \\
 Developed unified communications systems and modern WebRTC softphone connected with fixed-mobile unification; these include low level and high level languages and technologies. I developed also a suite of automation and deployment tools based on OpenSource solutions. This experience brought me the following knowledges:
 \begin{itemize}
 \item RTC developments, architectures and protocols (e.g. SIP)
 \item Network security skills, specially in Web 2.0 technologies (WebRTC, OAuth, ...)
-\item Contributions to major softwares and projects: Asterisk, \href{http://lists.mindrot.org/pipermail/openssh-unix-dev/2016-December/035563.html}{OpenSSH}, \href{https://github.com/rmedaer/mod_psm}{Apache2},\href{https://github.com/smira/aptly/pull/390}{Aptly}, Debian, Ansible, ...
+\item Contributions to major softwares and projects: Asterisk, \href{http://lists.mindrot.org/pipermail/openssh-unix-dev/2016-December/035563.html}{\ul{OpenSSH}}, \href{https://github.com/rmedaer/mod_psm}{\ul{Apache2}}, \href{https://github.com/smira/aptly/pull/390}{\ul{Aptly}}, Debian, Ansible, ...
 \item Automation and deployment models. Architecture analysis and design.
 \item Mobile developments (Android).
 \end{itemize}}
 %------------------------------------------------
 \entry
 {2014}
-{\href{http://www.cenaero.be/}{Cenaero}}
+{\href{http://www.cenaero.be/}{\ul{Cenaero}}}
 {Gosselies, Belgium}
 {\emph{Internship} \\
-Built an advanced monitoring system for \href{https://www.top500.org/system/178439}{biggest Belgian supercomputer}. \\
+Built an advanced monitoring system for \href{https://www.top500.org/system/178439}{\ul{biggest Belgian supercomputer}}. \\
 I worked with HPC technologies such as PBS, MPI, Ganglia or memcached servers.}
 %------------------------------------------------
 \end{entrylist}
@@ -137,7 +141,7 @@ I worked with HPC technologies such as PBS, MPI, Ganglia or memcached servers.}
 
 \section{interests}
 
-\textbf{professional:} low-level technologies, high-performance computing, security sciences, events \& meetups, open-source\footnote{Resume \href{https://github.com/rmedaer/me}{license and sources on Github}} softwares, after-works with colleagues \\
-\textbf{personal:} electronics, white hacking, organizing \href{http://www.relaispourlavie.be/relays/braine-lalleud-2017#block-views-stkrfl-contacts-main-block-1}{Relay 4 life}, music (piano), \href{https://www.lairdubois.fr/pas-a-pas/268-meuble-tv-chester-2.html}{wood working}
+\textbf{professional:} low-level technologies, high-performance computing, security sciences, events \& meetups, open-source\footnote{Resume \href{https://github.com/rmedaer/me}{\ul{license and sources on Github}}} softwares, after-works with colleagues \\
+\textbf{personal:} electronics, white hacking, organizing \href{http://www.relaispourlavie.be/relays/braine-lalleud-2017#block-views-stkrfl-contacts-main-block-1}{\ul{Relay 4 life}}, music (piano), \href{https://www.lairdubois.fr/pas-a-pas/268-meuble-tv-chester-2.html}{\ul{wood working}}
 
 \end{document}
