@@ -12,13 +12,15 @@ Please install following dependencies:
 
 I might missed some dependencies, feel free to complete through PR ;-)
 
-Then run: 
+Then run Makefile. It will ask you a passphrase to decrypt personal data.
 
-```bash
-make
+Here is the pattern of decrypted `personal.tex` file:
+
+```tex
+\newcommand{\myPhoneNumber}{<my phone number>}
+\newcommand{\myAddress}{<my home address>}
+\newcommand{\myPrivateMail}{<my private mail address>}
 ```
-
-That's it !
 
 ## License
 
