@@ -18,6 +18,7 @@ Here is the pattern of decrypted `personal.tex` file:
 
 ```tex
 \newcommand{\myPhoneNumber}{<my phone number>}
+\newcommand{\myUriPhoneNumber}{<tel: my phone number>} % E.164
 \newcommand{\myAddress}{<my home address>}
 \newcommand{\myPrivateMail}{<my private mail address>}
 ```
