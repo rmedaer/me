@@ -26,7 +26,7 @@
 \definecolor{orange}{HTML}{FDA333}
 \definecolor{purple}{HTML}{D3A4F9}
 \definecolor{red}{HTML}{FB4485}
-\definecolor{blue}{HTML}{6CE0F1}
+\definecolor{blue}{HTML}{65B8E3}
 \definecolor{underliner}{HTML}{DDDDDD}
 
 \ifdefined\@cv@print
