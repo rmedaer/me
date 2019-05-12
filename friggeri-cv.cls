@@ -161,7 +161,7 @@
 \newenvironment{aside}{%
   \let\oldsection\section
   \renewcommand{\section}[1]{
-    \par\vspace{1.4\parskip}{\Large\headingfont\color{headercolor} ##1}
+    \par\vspace{0.5\parskip}{\Large\headingfont\color{headercolor} ##1}
   }
   \begin{textblock}{3.8}(1.5, 4.33)
   \begin{flushright}
@@ -307,5 +307,5 @@
 % Other tweaks %
 %%%%%%%%%%%%%%%%
 
-\RequirePackage[left=6.1cm,top=1.6cm,right=1.5cm,bottom=1.6cm,nohead,nofoot]{geometry}
+\RequirePackage[left=6.1cm,top=1.4cm,right=1.5cm,bottom=1.4cm,nohead,nofoot]{geometry}
 \RequirePackage{hyperref}
